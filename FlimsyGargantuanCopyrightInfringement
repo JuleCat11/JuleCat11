@@ -1,0 +1,154 @@
+#!= is doesn't equal
+#Tell a Joke, Yell at a Pichu, Gamble, Dissapoint a Mother, Give a Quiz, tell a story, and Tell a Fun Fact.
+Draw = True
+name = input('What is your name?\n   ')
+if name == "Julian":
+  print("Hello Master, Good morning, afternooon, or night")
+else:  
+  print('Hello, %s.' % name, )
+Welcome = int(input("What would you like me to do today? I can Draw(1), Tell a" + " Joke(2), Give a Quiz(3), Tell a Fun Fact(4), and Gamble(5)\n   "))
+
+#FUN_FACTS
+if Welcome == 4:
+  import random
+  FF = random.randint(1,4)
+  print("This is Fun Fact number", FF)
+  if FF == 1:
+    print("Did you know that Sea Sponges are actually animals?")
+  if FF == 2:
+    print("Did you know that Greek Mythology came from ancient Greece?")
+  if FF == 3:
+    print("Did you know that if you place a blue whale on a basketball court, they'll have to end the game?")
+  if FF == 4:
+    print("Did you know that most racoons can't fly a helicopter?")
+
+#DRAW
+if Welcome == 1:
+  response = input("Do you want free will?\n    ")
+  if response != "Yes":
+   import turtle
+
+   turtle.right(150)
+   turtle.forward(200)
+   turtle.color('black')
+   turtle.width(5)
+   turtle.color('black', 'dark orange')
+
+   def left_turn():
+        for i in range(10):
+            turtle.forward(15)
+            turtle.left(9)
+
+   def petal():
+       turtle.begin_fill()
+       left_turn()
+       turtle.left(90)
+       left_turn()
+       turtle.end_fill()
+       turtle.left(90)
+
+   # Defining the flower function 
+   def flower():
+       for i in range(12):
+            petal()
+            turtle.right(360/12)
+
+       for i in range(3):
+            flower()# Calling the flower function
+            turtle.left(360/3)
+            turtle.width(0)
+            turtle.forward(300)
+            turtle.width(5)
+
+  #  turtle.right(210)
+  #  turtle.color('fuchsia', 'black')
+  #  turtle.forward(257)
+
+  if response == "Yes":
+   import turtle
+
+   while True:
+    response = input("Direction? \n")
+    if response == "Left":
+      turtle.left(90)
+    if response == "Right":
+      turtle.right(90)
+    if response == "Light Left":
+        turtle.left(45)
+    if response == "Light Right":
+        turtle.right(45)
+    if response == "Forward":
+      turtle.forward(100)
+    if response == "Light Forward":
+       turtle.forward(50)
+    if response == "End":
+      print("Well, Byebye then")
+      
+      
+#JOKES
+if Welcome == 2:
+  import random
+  number = random.randint(1,4)
+  print("Joke number", number, "is:")
+  if number == 1:
+    response = input("What do you call a fly without wings?\n   ")
+    print("A walk")
+  if number == 2:
+    response = input("What did the ocean say to the other ocean?\n   ")
+    print("Nothing, it just waved")
+  if number == 3:
+    response = input("What is a ghosts favorite plant?\n   ")
+    print("BamBOO")
+  if number == 4:
+    response = input("What is a Ghosts favorite food?\n   ")
+    print("A ghost pepper")
+
+#QUIZ
+if Welcome == 3:
+  response = int(input("How many Solar Units is the Sun?\n   "))
+  if response == 1:
+    print("Good job! now, ")
+    response = int(input("What year was the exact 20th century?\n   "))
+    if response == 1900:
+      print("You know quite a bit. What about, ")
+      response = input("What is the era of dinosours called?\n   ")
+      if response == "Mesozoic":
+        print("Good job, it seems you also know a bit of history. Let's do some math next.")
+        response = int(input("-3x(25+50)=450 What does x equal?\n   "))
+        if response == -2:
+          print("So you know algebra too? What about triangles?")
+          response = int(input("If the two legs of a right triangle are 6 and 8, then what is the length of the hypotnuse?\n   "))
+          if response == 10:
+            print("Seems like you know Pythagorean Thereum too! But what about fixing a grammar issue?")
+            response = input("Poison Dart Frogs are poisonous animals that excrete a poisonous substance that is from their diet of fire ants that they can't digest. What word in this sentance is wrong? And fix the grammar while you're at it. \n   ")
+            if response == "Sentence":
+              print("Wow, you found the trick, good on you. And guess what? YOU WIN!")
+            else:
+              print("Good but not good enough. You got so far and failed here. Try reading every word carefully next time.")
+          else:
+            print("Pythagorean Thereum is a squared + b squared = c squared. This turns to 36+64=100. And the square root of 100 is ten, so the answer is 10.")
+        else:
+          print("The answer was actually -2. This is because 50+25=75, -3*-2=6, and 75*6=450.")
+      else:
+        print("Wrong, it's actually Mesozoic, standing for...") #do what Mesozoic stands for
+    else:
+      print("Centuries are 100 years behind. Why? I don't know myself. But we are in 2000s, so we are in the 21st century.")
+  else:
+    print("No, the sun is actually one Solar Unit, it is the unit of something Solar that everyone knows, the sun being that thing.")
+    
+import random
+
+#GAMBLE
+if Welcome == 5:
+  LGG = random.randint(1,3)
+  unj = response = int(input("How much money? \n   $"))
+  response = input("Red or Black? ")
+  if LGG == 1:
+    print("You won $" + str(unj) + "!")
+  if LGG != 1:
+    print("You lost $" + str(unj) + ". :(")
+
+#One in a million
+OIAM = random.randint(1,1000000)
+while OIAM == 1:
+  print("You got the one in a million chance!")
