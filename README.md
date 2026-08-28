@@ -1,11 +1,1 @@
-- 👋 Hi, I’m @JuleCat11
-- 👀 I’m interested in science
-- 🌱 I’m currently learning science and things
-- 💞️ I’m looking to collaborate on nothing
-- 📫 How to reach me: you fail
-- 😄 Pronouns: Im a male
-- ⚡ Fun fact: Most rats cannot fly an airplane
-<!---
-JuleCat11/JuleCat11 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+i'm girl i think also kaai yuki is coolio and cooll and cool and so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool so cool
